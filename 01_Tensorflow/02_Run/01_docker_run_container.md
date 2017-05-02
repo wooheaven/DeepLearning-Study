@@ -3,7 +3,8 @@
 $ pwd
 /home/rwoo/02_workspace/05_DeepLearning_Workspace/DeepLearning-Study/01_Tensorflow
 
-$ docker run -it -p 6006:6006 -p 8888:8888 --name tensorflow -v /home/rwoo/02_workspace/05_DeepLearning_Workspace/DeepLearning-Study/01_Tensorflow/03_Workspace:/notebooks/03_Workspace tensorflow/tensorflow /bin/bash
+$ docker run -it -p 6006:6006 -p 8888:8888 --name tensorflow \
+-v /home/rwoo/02_workspace/05_DeepLearning_Workspace/DeepLearning-Study/01_Tensorflow/03_Workspace:/notebooks/03_Workspace tensorflow/tensorflow /bin/bash
 
 root@0f3fc3ad17ad:/notebooks# ll
 total 420
@@ -56,4 +57,18 @@ root@0f3fc3ad17ad:/# ./run_jupyter.sh --allow-root --notebook-dir=/notebooks/
     Copy/paste this URL into your browser when you connect for the first time,
     to login with a token:
         http://localhost:8888/?token=81d9fc47e698835cbf7c29e8946559c41916a81a557a36c3
+```
+
+# docker start tensorflow
+```{bash}
+$ docker start tensorflow 
+tensorflow
+
+$ docker ps 
+CONTAINER ID        IMAGE                   COMMAND             CREATED             STATUS              PORTS                                            NAMES
+0f3fc3ad17ad        tensorflow/tensorflow   "/bin/bash"         2 weeks ago         Up 6 seconds        0.0.0.0:6006->6006/tcp, 0.0.0.0:8888->8888/tcp   tensorflow
+
+$ docker exec -it tensorflow /bin/bash
+
+root@0f3fc3ad17ad:/notebooks# 
 ```
