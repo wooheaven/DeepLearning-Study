@@ -5,3 +5,5 @@
 # [01_Tensorflow/03_Workspace/01_Multi_Variable_Linear_Regression_with_manually.md] (01_Tensorflow/03_Workspace/01_Multi_Variable_Linear_Regression_with_manually.md)
 
 # [01_Tensorflow/03_Workspace/01_Multi_Variable_Linear_Regression_with_Matrix.md] (01_Tensorflow/03_Workspace/01_Multi_Variable_Linear_Regression_with_Matrix.md)
+
+# [01_Tensorflow/03_Workspace/01_Multi_Variable_Linear_Regression_with_file.md] (01_Tensorflow/03_Workspace/01_Multi_Variable_Linear_Regression_with_file.ipynb)
