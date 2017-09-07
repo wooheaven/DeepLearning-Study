@@ -1,26 +1,51 @@
-# docker pull tensorflow/tensorflow
 ```{bash}
 $ docker pull tensorflow/tensorflow
-Using default tag: latest
-latest: Pulling from tensorflow/tensorflow
-c62795f78da9: Pull complete 
-d4fceeeb758e: Pull complete 
-5c9125a401ae: Pull complete 
-0062f774e994: Pull complete 
-6b33fd031fac: Pull complete 
-52e18a0f2ca7: Pull complete 
-cf26e7f79a1f: Pull complete 
-f1d0b6192b60: Pull complete 
-d3cca787fa7c: Pull complete 
-24b58a5e905f: Pull complete 
-4ed0083b7815: Pull complete 
-f181e59dac06: Pull complete 
-Digest: sha256:51755c628e1a853f91b0574555efa70f327ffdcd7366449f87fed0066c8ef1f3
-Status: Downloaded newer image for tensorflow/tensorflow:latest
 
 $ docker images
 REPOSITORY              TAG                 IMAGE ID            CREATED             SIZE
 tensorflow/tensorflow   latest              2c520a260ba9        44 hours ago        1.13 GB
-busybox                 latest              00f017a8c2a6        5 weeks ago         1.11 MB
-postgres                9.3.6               e66064e079dd        23 months ago       213 MB
+
+$ docker run -it --name tensorflow -p 6006:6006 -p 8888:8888 -v `pwd`/../03_Workspce:/notebook/Workspace tensorflow/tensorflow bash
+
+root@c0120fbe6669:~# cd ~/.jupyter/
+
+root@85ac9f78a27f:~/.jupyter# ipython
+Python 2.7.12 (default, Nov 19 2016, 06:48:10) 
+Type "copyright", "credits" or "license" for more information.
+
+IPython 5.4.1 -- An enhanced Interactive Python.
+?         -> Introduction and overview of IPython's features.
+%quickref -> Quick reference.
+help      -> Python's own help system.
+object?   -> Details about 'object', use 'object??' for extra details.
+
+In [1]: from IPython.lib import passwd
+
+In [2]: passwd()
+Enter password: deep
+Verify password: deep
+Out[2]: 'sha1:b6bd23676386:f4a6b18f7ce88383b71029640a0f7981b518e94c'
+
+In [3]:                                                                                                                                                                                                     
+Do you really want to exit ([y]/n)? y
+
+root@85ac9f78a27f:~/.jupyter# cp jupyter_notebook_config.py jupyter_notebook_config.bak
+root@85ac9f78a27f:~/.jupyter# head -17 jupyter_notebook_config.bak > jupyter_notebook_config.py 
+root@85ac9f78a27f:~/.jupyter# cat >> jupyter_notebook_config.py << EOF
+> c = get_config()
+> c.NotebookApp.ip = '0.0.0.0'
+> c.NotebookApp.port = 8888
+> c.NotebookApp.open_browser = False
+> c.MultiKernelManager.default_kernel_name = 'python2'
+> c.NotebookApp.password = 'sha1:b6bd23676386:f4a6b18f7ce88383b71029640a0f7981b518e94c'
+> c.NotebookApp.notebook_dir = '/notebook/'
+> c.NotebookApp.allow_root = True
+> EOF
+
+root@4b5a7de303ed:~/.jupyter# jupyter notebook
+[I 16:47:38.251 NotebookApp] Writing notebook server cookie secret to /root/.local/share/jupyter/runtime/notebook_cookie_secret
+[I 16:47:38.292 NotebookApp] Serving notebooks from local directory: /notebook
+[I 16:47:38.292 NotebookApp] 0 active kernels 
+[I 16:47:38.292 NotebookApp] The Jupyter Notebook is running at: http://0.0.0.0:8888/
+[I 16:47:38.293 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
 ```
