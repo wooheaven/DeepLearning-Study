@@ -24,5 +24,5 @@
 | Contents | Details |
 |---|---|
 | Install | [by Anaconda](03_InSpace_Keras_Tutorial/01_Install_Keras/01_by_Anaconda.md) |
-| | [Check Library Version](03_InSpace_Keras_Tutorial/01_Install_Keras/CheckVersionOfLibrary.ipynb) |
+| | [Check Python Package Library Version](03_InSpace_Keras_Tutorial/01_Install_Keras/CheckVersionOfLibrary.ipynb) |
 | Example | |
