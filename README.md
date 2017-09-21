@@ -14,10 +14,12 @@
 | | [4th : Multi Variable Linear Regression with fileQueue](01_Local_Tensorflow_Official_Docker/02_Workspace/04_4th_Example/04_Multi_Variable_Linear_Regression_with_fileQueue.ipynb) |
 | | [5th : Multi Variable Linear Regression with Hattrick KP](01_Local_Tensorflow_Official_Docker/02_Workspace/05_5th_Example/05_Multi_Variable_Linear_Regression_with_file_Hattrick_KP.ipynb) |
 
-# 02_Local_PyCharm_Anaconda
+# 02_SNU_DeepLearning_ReInforcement_Learning
 | Contents | Details |
 |---|---|
-| Install | |
+| Install | [Install PyCharm](02_SNU_ReInforcement_Learning/01_Install/01_Install_PyCharm.md) |
+| | [Create VirEnv](02_SNU_ReInforcement_Learning/01_Install/02_Create_VirEnv.md) |
+| | [Check Version of Packages](02_SNU_ReInforcement_Learning/01_Install/03_CheckVersionOfPackage.py) |
 | Example | |
 
 # 03_InSpace_Keras_Tutorial
