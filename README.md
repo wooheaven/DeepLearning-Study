@@ -20,6 +20,7 @@
 | Install | [Install PyCharm](02_SNU_ReInforcement_Learning/01_Install/01_Install_PyCharm.md) |
 | | [Create VirEnv](02_SNU_ReInforcement_Learning/01_Install/02_Create_VirEnv.md) |
 | | [Check Version of Packages](02_SNU_ReInforcement_Learning/01_Install/03_CheckVersionOfPackage.py) |
+| Book | [Discount Factor](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/ch02/01_MDP/05_Discount_Factor/01_Discount_Factor.md) |
 | Example | |
 
 # 03_InSpace_Keras_Tutorial
