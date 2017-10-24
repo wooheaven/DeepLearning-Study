@@ -1,3 +1,4 @@
 # ignore jupyter notebooks check point
 .ipynb_checkpoints/
 .idea/
+__pycache__/
