@@ -29,3 +29,8 @@
 | Install | [by Anaconda](03_InSpace_Keras_Tutorial/01_Install_Keras/01_by_Anaconda.md) |
 | | [Check Version of Packages](03_InSpace_Keras_Tutorial/01_Install_Keras/CheckVersionOfLibrary.ipynb) |
 | Example | |
+
+# 04_DeepLearning_from_Scratch
+| Contents | Details |
+|---|---|
+| Install | [Check Version of Python](04_DeepLearning_from_Scratch/1/1.3/python_version.ipynb) |
