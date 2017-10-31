@@ -33,4 +33,5 @@
 # 04_DeepLearning_from_Scratch
 | Contents | Details |
 |---|---|
-| Install | [Check Version of Python](04_DeepLearning_from_Scratch/1/1.3/python_version.ipynb) |
+| ch1 Install Python | [Check Version of Python](04_DeepLearning_from_Scratch/1/1.3/python_version.ipynb) |
+| ch2 Perceptron | [Perceptron : Definition, example for AND, NAND, OR, XOR](04_DeepLearning_from_Scratch/2/Perceptron.ipynb) |
