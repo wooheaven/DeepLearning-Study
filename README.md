@@ -26,9 +26,9 @@
 # 03_InSpace_Keras_Tutorial
 | Contents | Details |
 |---|---|
-| Install | [by Anaconda](03_InSpace_Keras_Tutorial/01_Install_Keras/01_by_Anaconda.md) |
+| part 01 Start Keras | [Install by Anaconda](03_InSpace_Keras_Tutorial/01_Install_Keras/01_by_Anaconda.md) |
 | | [Check Version of Packages](03_InSpace_Keras_Tutorial/01_Install_Keras/CheckVersionOfLibrary.ipynb) |
-| Example | |
+| part 02 DL Concept | [ch1 data set](03_InSpace_Keras_Tutorial/02_DL_Concept/01_DataSet/01_Train_Validate_Test_Set.md) |
 
 # 04_DeepLearning_from_Scratch
 | Contents | Details |
