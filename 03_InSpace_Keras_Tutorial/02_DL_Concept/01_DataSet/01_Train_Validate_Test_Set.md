@@ -1,4 +1,3 @@
-```{md}
 * 1\. What is Learning the knowledge
     * 1.1\. Learn is making model to to understand the real.
     * 1.2\. For use in real after learn.
@@ -17,4 +16,3 @@
         * What to test = trained and validated knowledge
         * How to test  = Apply with the last updated model, check with another-set.
 * 4\. Train, Validate, Test is relative.
-```
