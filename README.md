@@ -26,7 +26,7 @@
 # 03_InSpace_Keras_Tutorial
 | Contents | Details |
 |---|---|
-| part 01 Start Keras | [Install by Anaconda](03_InSpace_Keras_Tutorial/01_Install_Keras/01_by_docker.md) |
+| part 01 Start Keras | [Install by docker](03_InSpace_Keras_Tutorial/01_Install_Keras/01_by_docker.md) |
 | | [Check Version of Packages](03_InSpace_Keras_Tutorial/01_Install_Keras/02_Check_Library_Version.ipynb) |
 | part 02 DeepLearning Concept | [ch1 Train Validation DataSet](03_InSpace_Keras_Tutorial/02_DL_Concept/01_Train_Validate_Test_Set.ipynb) |
 | | [ch2 BatchSize and Epochs](03_InSpace_Keras_Tutorial/02_DL_Concept/02_batch_size_epochs.ipynb) |
