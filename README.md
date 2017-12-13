@@ -28,7 +28,7 @@
 |---|---|
 | part 01 Start Keras | [Install by Anaconda](03_InSpace_Keras_Tutorial/01_Install_Keras/01_by_Anaconda.md) |
 | | [Check Version of Packages](03_InSpace_Keras_Tutorial/01_Install_Keras/CheckVersionOfLibrary.ipynb) |
-| part 02 DeepLearning Concept | [ch1 Data Set](03_InSpace_Keras_Tutorial/02_DL_Concept/01_DataSet/01_Train_Validate_Test_Set.md) |
+| part 02 DeepLearning Concept | [ch1 Data Set](03_InSpace_Keras_Tutorial/02_DL_Concept/01_Train_Validate_Test_Set.ipynb) |
 | | [ch2 BatchSize and Epochs](03_InSpace_Keras_Tutorial/02_DL_Concept/01_DataSet/02_batch_size_epochs.ipynb) |
 | | [ch3 history by fit](03_InSpace_Keras_Tutorial/02_DL_Concept/03_01_history_by_fit.ipynb) |
 | | [ch3 history by tensorboard](03_InSpace_Keras_Tutorial/02_DL_Concept/03_02_history_by_tensorboard.ipynb) |
