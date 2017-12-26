@@ -32,6 +32,7 @@
 | | [ch2 BatchSize and Epochs](03_InSpace_Keras_Tutorial/02_DL_Concept/02_batch_size_epochs.ipynb) |
 | | [ch3 history by fit](03_InSpace_Keras_Tutorial/02_DL_Concept/03_01_history_by_fit.ipynb) |
 | | [ch3 history by tensorboard](03_InSpace_Keras_Tutorial/02_DL_Concept/03_02_history_by_tensorboard.ipynb) |
+| | [ch3 history bu user defined callbacks](03_InSpace_Keras_Tutorial/02_DL_Concept/03_03_history_by_user_defined_callbacks.ipynb) |
 
 # 04_DeepLearning_from_Scratch
 | Contents | Details |
