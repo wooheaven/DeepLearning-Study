@@ -36,6 +36,7 @@
 | | [ch4 OverFitting](03_InSpace_Keras_Tutorial/02_DL_Concept/04_01_overfitting.ipynb) |
 | | [ch4 EarlyStopping](03_InSpace_Keras_Tutorial/02_DL_Concept/04_02_early_stopping.ipynb) |
 | | [ch4 EarlyStopping with patience=10](03_InSpace_Keras_Tutorial/02_DL_Concept/04_03_early_stopping_patience.ipynb) |
+| | [ch5 Evaluation for Model of Classfication](03_InSpace_Keras_Tutorial/02_DL_Concept/05/05_01_evaluation_for_classification.ipynb) |
 
 # 04_DeepLearning_from_Scratch
 | Contents | Details |
