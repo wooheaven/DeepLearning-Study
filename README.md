@@ -33,6 +33,9 @@
 | | [ch3 history by fit](03_InSpace_Keras_Tutorial/02_DL_Concept/03_01_history_by_fit.ipynb) |
 | | [ch3 history by tensorboard](03_InSpace_Keras_Tutorial/02_DL_Concept/03_02_history_by_tensorboard.ipynb) |
 | | [ch3 history bu user defined callbacks](03_InSpace_Keras_Tutorial/02_DL_Concept/03_03_history_by_user_defined_callbacks.ipynb) |
+| | [ch4 OverFitting](03_InSpace_Keras_Tutorial/02_DL_Concept/04_01_overfitting.ipynb) |
+| | [ch4 EarlyStopping](03_InSpace_Keras_Tutorial/02_DL_Concept/04_02_early_stopping.ipynb) |
+| | [ch4 EarlyStopping with patience=10](03_InSpace_Keras_Tutorial/02_DL_Concept/04_03_early_stopping_patience.ipynb) |
 
 # 04_DeepLearning_from_Scratch
 | Contents | Details |
