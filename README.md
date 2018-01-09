@@ -39,6 +39,7 @@
 | | [ch5 Evaluation for Model of Classfication](03_InSpace_Keras_Tutorial/02_DL_Concept/05/05_01_eval_for_classification.ipynb) |
 | | [ch5 Evaluation for Model of Search or Detection](03_InSpace_Keras_Tutorial/02_DL_Concept/05/05_02_eval_for_search.ipynb) |
 | | [ch5 Evaluation for Model of Split](03_InSpace_Keras_Tutorial/02_DL_Concept/05/05_03_eval_for_split.ipynb) |
+| | [ch6 Model view, save, load](03_InSpace_Keras_Tutorial/02_DL_Concept/06/06_01_MNIST.ipynb) |
 
 # 04_DeepLearning_from_Scratch
 | Contents | Details |
