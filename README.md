@@ -28,18 +28,19 @@
 |---|---|
 | part 01 Start Keras | [Install by docker](03_InSpace_Keras_Tutorial/01_Install_Keras/01_by_docker.md) |
 | | [Check Version of Packages](03_InSpace_Keras_Tutorial/01_Install_Keras/02_Check_Library_Version.ipynb) |
-| part 02 DeepLearning Concept | [ch1 Train Validation DataSet](03_InSpace_Keras_Tutorial/02_DL_Concept/01_Train_Validate_Test_Set.ipynb) |
-| | [ch2 BatchSize and Epochs](03_InSpace_Keras_Tutorial/02_DL_Concept/02_batch_size_epochs.ipynb) |
-| | [ch3 history by fit](03_InSpace_Keras_Tutorial/02_DL_Concept/03/03_01_history_by_fit.ipynb) |
-| | [ch3 history by tensorboard](03_InSpace_Keras_Tutorial/02_DL_Concept/03/03_02_history_by_tensorboard.ipynb) |
-| | [ch3 history bu user defined callbacks](03_InSpace_Keras_Tutorial/02_DL_Concept/03/03_03_history_by_user_defined_callbacks.ipynb) |
-| | [ch4 OverFitting](03_InSpace_Keras_Tutorial/02_DL_Concept/04/04_01_overfitting.ipynb) |
-| | [ch4 EarlyStopping](03_InSpace_Keras_Tutorial/02_DL_Concept/04/04_02_early_stopping.ipynb) |
-| | [ch4 EarlyStopping with patience=10](03_InSpace_Keras_Tutorial/02_DL_Concept/04/04_03_early_stopping_patience.ipynb) |
-| | [ch5 Evaluation for Model of Classfication](03_InSpace_Keras_Tutorial/02_DL_Concept/05/05_01_eval_for_classification.ipynb) |
-| | [ch5 Evaluation for Model of Search or Detection](03_InSpace_Keras_Tutorial/02_DL_Concept/05/05_02_eval_for_search.ipynb) |
-| | [ch5 Evaluation for Model of Split](03_InSpace_Keras_Tutorial/02_DL_Concept/05/05_03_eval_for_split.ipynb) |
-| | [ch6 Model view, save, load](03_InSpace_Keras_Tutorial/02_DL_Concept/06/06_01_MNIST.ipynb) |
+| part 02 DeepLearning Concept | [ch1 Train Validation DataSet](03_InSpace_Keras_Tutorial/02/01/01_Train_Validate_Test_Set.ipynb) |
+| | [ch2 BatchSize and Epochs](03_InSpace_Keras_Tutorial/02/02/01_batch_size_epochs.ipynb) |
+| | [ch3 history by fit](03_InSpace_Keras_Tutorial/02/03/01_history_by_fit.ipynb) |
+| | [ch3 history by tensorboard](03_InSpace_Keras_Tutorial/02/03/02_history_by_tensorboard.ipynb) |
+| | [ch3 history bu user defined callbacks](03_InSpace_Keras_Tutorial/02/03/03_history_by_user_defined_callbacks.ipynb) |
+| | [ch4 OverFitting](03_InSpace_Keras_Tutorial/02/04/01_overfitting.ipynb) |
+| | [ch4 EarlyStopping](03_InSpace_Keras_Tutorial/02/04/02_early_stopping.ipynb) |
+| | [ch4 EarlyStopping with patience=10](03_InSpace_Keras_Tutorial/02/04/03_early_stopping_patience.ipynb) |
+| | [ch5 Evaluation for Model of Classfication](03_InSpace_Keras_Tutorial/02/05/01_eval_for_classification.ipynb) |
+| | [ch5 Evaluation for Model of Search or Detection](03_InSpace_Keras_Tutorial/02/05/02_eval_for_search.ipynb) |
+| | [ch5 Evaluation for Model of Split](03_InSpace_Keras_Tutorial/02/05/03_eval_for_split.ipynb) |
+| | [ch6 Model view, save, load](03_InSpace_Keras_Tutorial/02/06/01_MNIST.ipynb) |
+| part 03 Layer Concept | [ch01, 02 Multi Perceptron Layer](03_InSpace_Keras_Tutorial/03/01/01_Neuron_and_Perceptron.ipynb) |
 
 # 04_DeepLearning_from_Scratch
 | Contents | Details |
