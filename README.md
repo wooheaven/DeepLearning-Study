@@ -39,7 +39,7 @@
 | | [ch5 Evaluation for Model of Classfication](03_InSpace_Keras_Tutorial/02/05/05_01_eval_for_classification.ipynb) |
 | | [ch5 Evaluation for Model of Search or Detection](03_InSpace_Keras_Tutorial/02/05/05_02_eval_for_search.ipynb) |
 | | [ch5 Evaluation for Model of Split](03_InSpace_Keras_Tutorial/02/05/05_03_eval_for_split.ipynb) |
-| | [ch6 Model view, save, load](03_InSpace_Keras_Tutorial/02_DL_Concept/06/01_MNIST.ipynb) |
+| | [ch6 Model view, save, load](03_InSpace_Keras_Tutorial/02/06/01_MNIST.ipynb) |
 | part 03 Layer Concept | [ch01, 02 Multi Perceptron Layer](03_InSpace_Keras_Tutorial/03/01/01_Neuron_and_Perceptron.ipynb) |
 
 # 04_DeepLearning_from_Scratch
