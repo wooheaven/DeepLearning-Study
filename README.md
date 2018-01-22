@@ -40,7 +40,8 @@
 | | [ch5 Evaluation for Model of Search or Detection](03_InSpace_Keras_Tutorial/02/05/02_eval_for_search.ipynb) |
 | | [ch5 Evaluation for Model of Split](03_InSpace_Keras_Tutorial/02/05/03_eval_for_split.ipynb) |
 | | [ch6 Model view, save, load](03_InSpace_Keras_Tutorial/02/06/01_MNIST.ipynb) |
-| part 03 Layer Concept | [ch01, 02 Multi Perceptron Layer](03_InSpace_Keras_Tutorial/03/01/01_Neuron_and_Perceptron.ipynb) |
+| part 03 Layer Concept | [ch01 Multi Perceptron Layer](03_InSpace_Keras_Tutorial/03/01/01_Neuron_and_Perceptron.ipynb) |
+| | [ch02 Multi Perceptron Layer for Pigma Indians Diabetes](03_InSpace_Keras_Tutorial/03/02/01_perceptron-model-for-pigma-indians-diabetes.ipynb) |
 
 # 04_DeepLearning_from_Scratch
 | Contents | Details |
