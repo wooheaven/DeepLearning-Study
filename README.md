@@ -47,6 +47,7 @@
 | | [ch03 Flatten Layer](03_InSpace_Keras_Tutorial/03/03/03_Flatten_Layer.ipynb) |
 | | [ch03 Conv2D MaxPooling2D Flatten Example](03_InSpace_Keras_Tutorial/03/03/04_Conv2D_MaxPooling2D_Flatten_Example.ipynb) |
 | | [ch03 icrawler on Google Image](03_InSpace_Keras_Tutorial/03/03/05_icrawler_on_Google_Image.ipynb) |
+| | [ch03 Duplicate Data by ImageDataGenerator](03_InSpace_Keras_Tutorial/03/03/06_Duplicate_with_ImageDataGenerator.ipynb) |
 
 # 04_DeepLearning_from_Scratch
 | Contents | Details |
