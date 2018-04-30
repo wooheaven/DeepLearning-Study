@@ -27,7 +27,7 @@
 |          | [Time](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/02_ch02/01_MDP/05_Time.md)                                       |
 |          | [Policy](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/02_ch02/01_MDP/06_Policy.md)                                   |
 |          | [Reward in MDP](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/02_ch02/01_MDP/07_Reward_in_MDP.md)                     |
-|          | [Flow in MDP](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/02_ch02/01_MDP/08_Flow_in_MDP.gliffy)                     |
+|          | [Flow in MDP](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/02_ch02/01_MDP/08_Flow_in_MDP.png)                        |
 |          | [Discount Factor](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/02_ch02/01_MDP/09_Discount_Factor.md)                 |
 | Example  |                                                                                                                                 |
 
