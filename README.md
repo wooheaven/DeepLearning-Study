@@ -15,13 +15,19 @@
 | | [5th : Multi Variable Linear Regression with Hattrick KP](01_Local_Tensorflow_Official_Docker/02_Workspace/05_5th_Example/05_Multi_Variable_Linear_Regression_with_file_Hattrick_KP.ipynb) |
 
 # 02_SNU_DeepLearning_ReInforcement_Learning
-| Contents | Details |
-|---|---|
-| Install | [Install PyCharm](02_SNU_ReInforcement_Learning/01_Install/01_Install_PyCharm.md) |
-| | [Create VirEnv](02_SNU_ReInforcement_Learning/01_Install/02_Create_VirEnv.md) |
-| | [Check Version of Packages](02_SNU_ReInforcement_Learning/01_Install/03_CheckVersionOfPackage.py) |
-| Book | [Discount Factor](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/ch02/01_MDP/05_Discount_Factor/01_Discount_Factor.md) |
-| Example | |
+| Contents | Details                                                                                                                         |
+|----------|---------------------------------------------------------------------------------------------------------------------------------|
+| Install  | [Install PyCharm](02_SNU_ReInforcement_Learning/01_Install/01_Install_PyCharm.md)                                               |
+|          | [Create VirEnv](02_SNU_ReInforcement_Learning/01_Install/02_Create_VirEnv.md)                                                   |
+|          | [Check Version of Packages](02_SNU_ReInforcement_Learning/01_Install/03_CheckVersionOfPackage.py)                               |
+| Book     | [Agent](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/02_ch02/01_MDP/01_Agent.md)                                     |
+|          | [State](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/02_ch02/01_MDP/02_State.md)                                     |
+|          | [Actions](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/02_ch02/01_MDP/03_Actions.md)                                 |
+|          | [Reward](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/02_ch02/01_MDP/04_Reward.md)                                   |
+|          | [Time](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/02_ch02/01_MDP/05_Time.md)                                       |
+|          | [Policy](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/02_ch02/01_MDP/06_Policy.md)                                   |
+|          | [Discount Factor](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/02_ch02/01_MDP/08_Discount_Factor.md)                 |
+| Example  |                                                                                                                                 |
 
 # 03_InSpace_Keras_Tutorial
 | Contents | Details |
