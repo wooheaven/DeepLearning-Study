@@ -10,10 +10,10 @@ http://keydifferences.com/difference-between-compounding-and-discounting.html
 ```
 
 # Discounting and Compounding
-Discounting is a way to compute the PresentValue from FuctureValue and DiscoutRate  
+Discounting is a way to compute the PresentValue from FuctureValue and DiscoutRate.  
 FV ---Discounting--> $`PV = function(FV, DF)`$  
 
-Compounding is a way to compute the FuctureValue from PresentValue and CompoundInterestRate
+Compounding is a way to compute the FuctureValue from PresentValue and CompoundInterestRate.  
 PV ---Compounding--> $`FV = function(PV, CF)`$  
 
 # Discounting and Compounding Example
