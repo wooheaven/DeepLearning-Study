@@ -31,6 +31,7 @@
 |          | [State Transition Probability](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/02_ch02/01_MDP/09_State_Transition_Probability.md) |
 |          | [Discount Factor](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/02_ch02/01_MDP/10_Discount_Factor.md)                           |
 |          | [Return](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/02_ch02/01_MDP/11_Return.md)                                             |
+|          | [ValueFunction](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/02_ch02/01_MDP/12_ValueFunction.md)                               |
 | Example  |                                                                                                                                           |
 
 # 03_InSpace_Keras_Tutorial
