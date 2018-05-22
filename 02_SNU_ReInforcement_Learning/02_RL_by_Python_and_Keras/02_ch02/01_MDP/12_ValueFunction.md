@@ -11,16 +11,16 @@ $` \kern2em\: = E[ \displaystyle\sum_{i=1}^\infty \gamma^{i-1} \cdot R_{t+i} \en
 $` \kern2em\: = E[ R_{t+1} + \displaystyle\sum_{i=2}^\infty \gamma^{i-1} \cdot R_{t+i} \enspace | \enspace S_t =s ] `$  
 $` \kern2em\: = E[ R_{t+1} + \gamma \cdot v(S_{t+1}) \enspace | \enspace S_t = s ] `$  
 
-# Bellman Expectation Equation 유도하기
+# ValueFunction에 대한 Bellman Expectation Equation 유도하기
 어떤 Agent가 Policy $` \pi `$를 따른다고 할때   
 위의 Recursive하게 정리된 ValueFunction이 Bellman Expectation Equation이다.  
 
 $` v_{\pi}(S_t) = E_{\pi} [ R_{t+1} + \gamma \cdot v_{\pi}(S_{t+1}) \enspace | \enspace S_t = s ]  `$  
 
 위의 ValueFunction은 2가지 단점을 갖고 있다.  
-첫째 Time t에서 State $`S_t`$의 ValueFunction을 Time t에서 구할 수 없다.  
-둘때 Time t에서 State $`S_t`$를 인식하고 적절한 Action a를 Policy로 부터 얻는다.  
-그런데 Policy가 Update될때 ValueFunction만 반영한다면 Action a는 직접 반영되지 않는다.  
+첫째 Time t에서 State $`S_t`$의 ValueFunction을 Time t에서 구할 수 없다.   
+둘째 Time t에서 State $`S_t`$를 인식하고 적절한 Action a를 Policy로 부터 얻는다.  
+그런데 Policy가 Update될때 ValueFunction만 반영하고 Action a는 직접 반영되지 않는다.  
 
 첫째 문제를 자세하게 기술하며면 아래와 같다.  
 
