@@ -6,6 +6,7 @@ REPOSITORY              TAG                 IMAGE ID            CREATED         
 tensorflow/tensorflow   latest              2c520a260ba9        44 hours ago        1.13 GB
 
 $ docker run -it --name tensorflow -p 6006:6006 -p 8888:8888 -v `pwd`/../03_Workspce:/notebook/Workspace tensorflow/tensorflow bash
+$ docker run -it --name tensorflow -p 6006:6006 -p 8888:8888 -e PASSWORD=deep -v `pwd`/../03_Workspce:/notebook/Workspace tensorflow/tensorflow bash
 
 root@c0120fbe6669:~# cd ~/.jupyter/
 
