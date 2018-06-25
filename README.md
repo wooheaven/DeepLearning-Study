@@ -67,3 +67,8 @@
 | ch1 Install Python | [Check Version of Python](04_DeepLearning_from_Scratch/1/1.3/python_version.ipynb)                                                                   |
 | ch2 Perceptron     | [Perceptron : Definition, example for AND, NAND, OR, XOR](04_DeepLearning_from_Scratch/2/Perceptron.ipynb)                                           |
 | ch3 ANN            | [From Perceptron to ANN : Step Function, Sigmoid Function](04_DeepLearning_from_Scratch/3/3.1/01_from_Perceptron_to_Artificial_Neural_Network.ipynb) |
+
+# 05_Sliding_Puzzle
+| Contents  | Details                                               |
+|-----------|-------------------------------------------------------|
+| Env state | [Find all state](05_Sliding_Puzzle/Sliding_Puzzle.py) |
