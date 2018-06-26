@@ -38,7 +38,7 @@ def drop_table_if_exsits(conn, table_name):
         print(query)
         print(error)
     finally:
-        if cursor is not None:
+        if cursor.closed is False:
             cursor.close()
 
 
@@ -60,7 +60,7 @@ def create_table_states(conn):
         print(query)
         print(error)
     finally:
-        if cursor is not None:
+        if cursor.closed is False:
             cursor.close()
 
 
@@ -78,16 +78,15 @@ def check_state(conn, state):
         print(query)
         print(error)
     finally:
-        if cursor is not None:
+        if cursor.closed is False:
             cursor.close()
 
 
 def insert_state(conn, state):
     try:
-        cursor = None
+        cursor = conn.cursor()
         is_state_duplicated = check_state(conn, state)
         if is_state_duplicated is False:
-            cursor = conn.cursor()
             state_str = list_to_string(state)
             query = "INSERT INTO states (state) VALUES (%s)"
             cursor.execute(query, (state_str,))
@@ -97,7 +96,7 @@ def insert_state(conn, state):
         print(query)
         print(error)
     finally:
-        if cursor is not None:
+        if cursor.closed is False:
             cursor.close()
 
 
@@ -124,7 +123,7 @@ def find_next_id(conn):
         print(query)
         print(error)
     finally:
-        if cursor is not None:
+        if cursor.closed is False:
             cursor.close()
 
 
@@ -141,7 +140,7 @@ def select_state_by_id(conn, id):
         print(query)
         print(error)
     finally:
-        if cursor is not None:
+        if cursor.closed is False:
             cursor.close()
 
 
@@ -161,7 +160,7 @@ def update_actions_by_id_state(conn, actions, id):
         print(query)
         print(error)
     finally:
-        if cursor is not None:
+        if cursor.closed is False:
             cursor.close()
 
 
@@ -181,7 +180,7 @@ def update_next_state_by_id(conn, next_states, id):
         print(query)
         print(error)
     finally:
-        if cursor is not None:
+        if cursor.closed is False:
             cursor.close()
 
 
@@ -200,7 +199,7 @@ def get_next_id_by_next_state(conn, next_state):
         print("Error Happen")
         print(error)
     finally:
-        if cursor is not None:
+        if cursor.closed is False:
             cursor.close()
 
 
@@ -218,7 +217,7 @@ def update_next_id_by_id(conn, id, next_id_str):
         print(query)
         print(error)
     finally:
-        if cursor is not None:
+        if cursor.closed is False:
             cursor.close()
 
 
@@ -285,8 +284,7 @@ if __name__ == "__main__":
     insert_state(conn, last_state)
 
     # state search
-    # find id
-    id = 1
+    id = find_next_id(conn)
     while id is not None:
         # 1 state
         select_state = select_state_by_id(conn, id)
@@ -311,6 +309,10 @@ if __name__ == "__main__":
 
         # 5 id
         id = find_next_id(conn)
+
+        # 6
+        if id % 10000 == 0:
+            print(id)
 
     # end
     conn.close
