@@ -311,7 +311,7 @@ if __name__ == "__main__":
         id = find_next_id(conn)
 
         # 6
-        if id % 10000 == 0:
+        if id is not None and id % 10000 == 0:
             print(id)
 
     # end
