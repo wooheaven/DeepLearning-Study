@@ -48,14 +48,15 @@ def create_table_states(conn):
     try:
         cursor = conn.cursor()
         query = ""
-        query += "CREATE TABLE states (                 " + "\n"
-        query += "    id          SERIAL      NOT NULL, " + "\n"
-        query += "    state       VARCHAR(9)  NOT NULL, " + "\n"
-        query += "    actions     VARCHAR(9)          , " + "\n"
-        query += "    next_states VARCHAR(39)         , " + "\n"
-        query += "    next_ids    VARCHAR(27)         , " + "\n"
-        query += "    position    json                  " + "\n"
-        query += ")                                     "
+        query += "CREATE TABLE states (                    " + "\n"
+        query += "    id             SERIAL      NOT NULL, " + "\n"
+        query += "    state          VARCHAR(9)  NOT NULL, " + "\n"
+        query += "    actions        VARCHAR(9)          , " + "\n"
+        query += "    next_states    VARCHAR(39)         , " + "\n"
+        query += "    next_ids       VARCHAR(27)         , " + "\n"
+        query += "    position       json                , " + "\n"
+        query += "    value_function json                  " + "\n"
+        query += ")                                        "
         cursor.execute(query)
         conn.commit()
     except (Exception, psycopg2.DatabaseError) as error:
@@ -292,12 +293,6 @@ def create_next_states_next_positions(state, actions, position):
     return out_states, out_positions
 
 
-def pprint(data):
-    print("type", type(data))
-    print("dimension", data.ndim)
-    print(data)
-
-
 def update_position_by_id(conn, id, position_json):
     try:
         cursor = conn.cursor()
@@ -316,13 +311,61 @@ def update_position_by_id(conn, id, position_json):
             cursor.close()
 
 
+def update_value_function_by_id(conn, id, value_function):
+    try:
+        cursor = conn.cursor()
+        query = ""
+        query += "UPDATE states               " + "\n"
+        query += "    SET value_function = %s " + "\n"
+        query += "    WHERE id = %s           " + "\n"
+        cursor.execute(query, (json.dumps(value_function), id))
+        conn.commit()
+    except (Exception, psycopg2.DatabaseError) as error:
+        print("Error Happen")
+        print(query)
+        print(error)
+    finally:
+        if cursor.closed is False:
+            cursor.close()
+
+
+def pprint(data):
+    print("type", type(data))
+    print("dimension", data.ndim)
+    print(data)
+
+
+def create_manhattan_distance(last_position, now_position):
+    manhattan_distance = 0
+    manhattan_distance += abs(last_position[0] - now_position[0])
+    manhattan_distance += abs(last_position[1] - now_position[1])
+    return manhattan_distance
+
+
+def create_value_function(now_state, last_state):
+    i_range = range(last_state.shape[0])
+    j_range = range(last_state.shape[1])
+    manhattan_distance_sum = 0
+    for i in i_range:
+        for j in j_range:
+            last_number = last_state[i][j]
+            now_position = create_target_number_position_list(now_state, last_number)[0]
+            manhattan_distance = create_manhattan_distance((i, j), now_position)
+            manhattan_distance_sum += manhattan_distance
+    reward = 100 - round((manhattan_distance_sum / 36) * 100)
+    reward_json = json.loads('{}')
+    reward_json['reward'] = reward
+    return reward_json
+
+
 if __name__ == "__main__":
     # initial data
     last_state_list = [[1, 2, 3], [4, 5, 6], [7, 8, 0]]
+    last_state = np.array(last_state_list, dtype=int)
     initial_state = np.array(last_state_list, dtype=int)
     initial_state_str = list_to_string(initial_state)
     initial_state = string_to_np_array(initial_state_str)
-    initial_position = json.loads('{"x": 2, "y": 0, "reword": 0}')
+    initial_position = json.loads('{"x": 2, "y": 0}')
 
     # start
     conn = psycopg2.connect("dbname='mydatabase' user='myuser' host='localhost' port='65432' password='123qwe'")
@@ -358,7 +401,15 @@ if __name__ == "__main__":
             next_id_str += get_next_id_by_next_state(conn, next_state) + ","
         update_next_id_by_id(conn, id, next_id_str[:-1])
 
-        # 5 id
+        # 5 value_function
+        # index 0 = Reward
+        # index 1 = 1st value_function' value which is including next_state's value_function's value
+        #         = i.e. there is buff effect until index 1
+        # index 2 = Reward, 1st value_function' value, 2nd value_function's value
+        value_function = create_value_function(state, last_state)
+        update_value_function_by_id(conn, id, value_function)
+
+        # 6 id
         id = find_next_id(conn)
         if id is not None and id % 10000 == 0:
             print(id)
