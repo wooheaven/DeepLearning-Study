@@ -1,9 +1,3 @@
-# Overview
-| Component                           | Environment     | Integrated Development Environment | Python |
-|-------------------------------------|-----------------|------------------------------------|--------|
-| 01_Local_Tensorflow_Official_Docker | Local Container | Jupyter Notebook                   | 2.7    |
-| 02_Local_PyCharm_Anaconda           | Local macOS     | IntelliJ PyCharm                   | 3.5    |
-
 # 01_Local_Tensorflow_Official_Docker
 | Contents | Details                                                                                                                                                                                    |
 |----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -35,12 +29,12 @@
 |          | [QFunction](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/02_ch02/01_MDP/13_QFunction.md)                                       |
 Reinforcement Learning by Python and Keras  
 ╠═2. MDP and BE  
-╚═3. Grid World and Dynamic Programming  
-&ensp; &ensp; ╠═3.1. [Policy Iteration](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/03_ch03/01_grid_world/01_policy_iteration/policy_iteration.py)  
-&ensp; &ensp; ╚═3.2. [Value Iteration](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/03_ch03/01_grid_world/02_value_iteration/value_iteration.py)  
+╠═3. Grid World and Dynamic Programming  
+║&ensp; ╠═3.1. [Policy Iteration](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/03_ch03/01_grid_world/01_policy_iteration/policy_iteration.py)  
+║&ensp; ╚═3.2. [Value Iteration](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/03_ch03/01_grid_world/02_value_iteration/value_iteration.py)  
+╚═4. Grid World and SARSA  
+&ensp; &ensp; ╚═4.1. [SARSA](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/04_ch04/01_grid_world/01_sarsa/sarsa_agent.py)  
 ( ║ ╠ ═ ╚ )  
-
-
 
 # 03_InSpace_Keras_Tutorial
 | Contents                     | Details                                                                                                                                        |
