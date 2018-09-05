@@ -1,7 +1,8 @@
-# 01_Local_Tensorflow_Official_Docker
+Tensorflow  
+╠═1. [install by docker](01_Local_Tensorflow_Official_Docker/01_Install/01_by_Docker.md)  
+
 | Contents | Details                                                                                                                                                                                    |
 |----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Install  | [by docker and jupyter](01_Local_Tensorflow_Official_Docker/01_Install/01_by_Docker.md)                                                                                                    |
 | Example  | [1st : Multi Variable Linear Regression with manually](01_Local_Tensorflow_Official_Docker/02_Workspace/01_1st_Example/01_Multi_Variable_Linear_Regression_with_manually.ipynb)            |
 |          | [2nd : Multi Variable Linear Regression with Matrix](01_Local_Tensorflow_Official_Docker/02_Workspace/02_2nd_Example/02_Multi_Variable_Linear_Regression_with_Matrix.ipynb)                |
 |          | [3rd : Multi Variable Linear Regression with file](01_Local_Tensorflow_Official_Docker/02_Workspace/03_3rd_Example/03_Multi_Variable_Linear_Regression_with_file.ipynb)                    |
@@ -32,8 +33,9 @@ Reinforcement Learning by Python and Keras
 ╠═3. Grid World and Dynamic Programming  
 ║&ensp; ╠═3.1. [Policy Iteration](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/03_ch03/01_grid_world/01_policy_iteration/policy_iteration.py)  
 ║&ensp; ╚═3.2. [Value Iteration](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/03_ch03/01_grid_world/02_value_iteration/value_iteration.py)  
-╚═4. Grid World and SARSA  
-&ensp; &ensp; ╚═4.1. [SARSA](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/04_ch04/01_grid_world/01_sarsa/sarsa_agent.py)  
+╚═4. Grid World and Reinforcement Learning  
+&ensp; &ensp; ╠═4.1. [SARSA](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/04_ch04/01_grid_world/01_SARSA/sarsa_agent.py)  
+&ensp; &ensp; ╚═4.2. [QLearning](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/04_ch04/01_grid_world/02_QLearning/q_learning_agent.py)  
 ( ║ ╠ ═ ╚ )  
 
 # 03_InSpace_Keras_Tutorial
