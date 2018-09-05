@@ -42,13 +42,14 @@ class SARSAgent:
                 max_index_list.append(index)
             elif value == max_value:
                 max_index_list.append(index)
-            return random.choice(max_index_list)
+        return random.choice(max_index_list)
 
 if __name__ == "__main__":
     env = Env()
     agent = SARSAgent(actions=list(range(env.n_actions)))
 
-    for episode in range(1000):
+    for episode in range(1001):
+        print("episode =", episode)
         # 게임 환경과 상태를 초기화
         state = env.reset()
         # 현재 상태에 대한 행동을 선택
