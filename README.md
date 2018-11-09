@@ -1,9 +1,12 @@
-Tensorflow  
-╠═1. [install by docker](01_Local_Tensorflow_Official_Docker/01_Install/01_by_Docker.md)  
+DeepLearning  
+╠══ 1 Tensorflow  
+║&ensp;&ensp;&nbsp;╠══ 1.1 [install by docker](01_Local_Tensorflow_Official_Docker/01_Install/01_by_Docker.md)  
+║&ensp;&ensp;&nbsp;╚══ 1.2 Example  
+║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╠══ 1.2.1 [1st : Multi Variable Linear Regression with manually](01_Local_Tensorflow_Official_Docker/02_Workspace/01_1st_Example/01_Multi_Variable_Linear_Regression_with_manually.ipynb)  
+
 
 | Contents | Details                                                                                                                                                                                    |
 |----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Example  | [1st : Multi Variable Linear Regression with manually](01_Local_Tensorflow_Official_Docker/02_Workspace/01_1st_Example/01_Multi_Variable_Linear_Regression_with_manually.ipynb)            |
 |          | [2nd : Multi Variable Linear Regression with Matrix](01_Local_Tensorflow_Official_Docker/02_Workspace/02_2nd_Example/02_Multi_Variable_Linear_Regression_with_Matrix.ipynb)                |
 |          | [3rd : Multi Variable Linear Regression with file](01_Local_Tensorflow_Official_Docker/02_Workspace/03_3rd_Example/03_Multi_Variable_Linear_Regression_with_file.ipynb)                    |
 |          | [4th : Multi Variable Linear Regression with fileQueue](01_Local_Tensorflow_Official_Docker/02_Workspace/04_4th_Example/04_Multi_Variable_Linear_Regression_with_fileQueue.ipynb)          |
