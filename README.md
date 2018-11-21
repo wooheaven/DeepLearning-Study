@@ -3,42 +3,39 @@ DeepLearning
 ║&ensp;&ensp;&nbsp;╠══ 1.1 [install by docker](01_Local_Tensorflow_Official_Docker/01_Install/01_by_Docker.md)  
 ║&ensp;&ensp;&nbsp;╚══ 1.2 Example  
 ║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╠══ 1.2.1 [1st : Multi Variable Linear Regression with manually](01_Local_Tensorflow_Official_Docker/02_Workspace/01_1st_Example/01_Multi_Variable_Linear_Regression_with_manually.ipynb)  
-
-
-| Contents | Details                                                                                                                                                                                    |
-|----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|          | [2nd : Multi Variable Linear Regression with Matrix](01_Local_Tensorflow_Official_Docker/02_Workspace/02_2nd_Example/02_Multi_Variable_Linear_Regression_with_Matrix.ipynb)                |
-|          | [3rd : Multi Variable Linear Regression with file](01_Local_Tensorflow_Official_Docker/02_Workspace/03_3rd_Example/03_Multi_Variable_Linear_Regression_with_file.ipynb)                    |
-|          | [4th : Multi Variable Linear Regression with fileQueue](01_Local_Tensorflow_Official_Docker/02_Workspace/04_4th_Example/04_Multi_Variable_Linear_Regression_with_fileQueue.ipynb)          |
-|          | [5th : Multi Variable Linear Regression with Hattrick KP](01_Local_Tensorflow_Official_Docker/02_Workspace/05_5th_Example/05_Multi_Variable_Linear_Regression_with_file_Hattrick_KP.ipynb) |
-
-# 02_SNU_DeepLearning_ReInforcement_Learning
-| Contents | Details                                                                                                                                   |
-|----------|-------------------------------------------------------------------------------------------------------------------------------------------|
-| Install  | [Install PyCharm](02_SNU_ReInforcement_Learning/01_Install/01_Install_PyCharm.md)                                                         |
-|          | [Create VirEnv](02_SNU_ReInforcement_Learning/01_Install/02_Create_VirEnv.md)                                                             |
-|          | [Check Version of Packages](02_SNU_ReInforcement_Learning/01_Install/03_CheckVersionOfPackage.py)                                         |
-| Book     | [Agent](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/02_ch02/01_MDP/01_Agent.md)                                               |
-|          | [State](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/02_ch02/01_MDP/02_State.md)                                               |
-|          | [Actions](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/02_ch02/01_MDP/03_Actions.md)                                           |
-|          | [Reward](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/02_ch02/01_MDP/04_Reward.md)                                             |
-|          | [Time](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/02_ch02/01_MDP/05_Time.md)                                                 |
-|          | [Policy](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/02_ch02/01_MDP/06_Policy.md)                                             |
-|          | [Reward in MDP](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/02_ch02/01_MDP/07_Reward_in_MDP.md)                               |
-|          | [Flow in MDP](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/02_ch02/01_MDP/08_Flow_in_MDP.png)                                  |
-|          | [State Transition Probability](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/02_ch02/01_MDP/09_State_Transition_Probability.md) |
-|          | [Discount Factor](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/02_ch02/01_MDP/10_Discount_Factor.md)                           |
-|          | [Return](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/02_ch02/01_MDP/11_Return.md)                                             |
-|          | [ValueFunction](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/02_ch02/01_MDP/12_ValueFunction.md)                               |
-|          | [QFunction](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/02_ch02/01_MDP/13_QFunction.md)                                       |
-Reinforcement Learning by Python and Keras  
-╠═2. MDP and BE  
-╠═3. Grid World and Dynamic Programming  
-║&ensp; ╠═3.1. [Policy Iteration](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/03_ch03/01_grid_world/01_policy_iteration/policy_iteration.py)  
-║&ensp; ╚═3.2. [Value Iteration](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/03_ch03/01_grid_world/02_value_iteration/value_iteration.py)  
-╚═4. Grid World and Reinforcement Learning  
-&ensp; &ensp; ╠═4.1. [SARSA](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/04_ch04/01_grid_world/01_SARSA/sarsa_agent.py)  
-&ensp; &ensp; ╚═4.2. [QLearning](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/04_ch04/01_grid_world/02_QLearning/q_learning_agent.py)  
+║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╠══ 1.2.2 [2nd : Multi Variable Linear Regression with Matrix](01_Local_Tensorflow_Official_Docker/02_Workspace/02_2nd_Example/02_Multi_Variable_Linear_Regression_with_Matrix.ipynb)  
+║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╠══ 1.2.3 [3rd : Multi Variable Linear Regression with file](01_Local_Tensorflow_Official_Docker/02_Workspace/03_3rd_Example/03_Multi_Variable_Linear_Regression_with_file.ipynb)  
+║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╠══ 1.2.4 [4th : Multi Variable Linear Regression with fileQueue](01_Local_Tensorflow_Official_Docker/02_Workspace/04_4th_Example/04_Multi_Variable_Linear_Regression_with_fileQueue.ipynb)  
+║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╚══ 1.2.5 [5th : Multi Variable Linear Regression with Hattrick KP](01_Local_Tensorflow_Official_Docker/02_Workspace/05_5th_Example/05_Multi_Variable_Linear_Regression_with_file_Hattrick_KP.ipynb)  
+╠══ 2 Reinforcement by Python and Keras  
+║&ensp;&ensp;&nbsp;╠══ 2.1 Install  
+║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╠══ 2.1.1 [Install PyCharm](02_SNU_ReInforcement_Learning/01_Install/01_Install_PyCharm.md)  
+║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╠══ 2.1.2 [Create VirEnv](02_SNU_ReInforcement_Learning/01_Install/02_Create_VirEnv.md)  
+║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╚══ 2.1.3 [Check Version of Packages](02_SNU_ReInforcement_Learning/01_Install/03_CheckVersionOfPackage.py)  
+║&ensp;&ensp;&nbsp;╚══ 2.2 Book  
+║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╠══ 2.2.1 ch02 MDP and BE  
+║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╠══ 2.2.1.1 [Agent](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/02_ch02/01_MDP/01_Agent.md)  
+║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╠══ 2.2.1.2 [State](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/02_ch02/01_MDP/02_State.md)  
+║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╠══ 2.2.1.3 [Actions](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/02_ch02/01_MDP/03_Actions.md)  
+║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╠══ 2.2.1.4 [Reward](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/02_ch02/01_MDP/04_Reward.md)  
+║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╠══ 2.2.1.5 [Time](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/02_ch02/01_MDP/05_Time.md)  
+║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╠══ 2.2.1.6 [Policy](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/02_ch02/01_MDP/06_Policy.md)  
+║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╠══ 2.2.1.7 [Reward in MDP](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/02_ch02/01_MDP/07_Reward_in_MDP.md)  
+║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╠══ 2.2.1.8 [Flow in MDP](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/02_ch02/01_MDP/08_Flow_in_MDP.png)  
+║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╠══ 2.2.1.9 [State Transition Probability](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/02_ch02/01_MDP/09_State_Transition_Probability.md)  
+║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╠══ 2.2.1.10 [Discount Factor](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/02_ch02/01_MDP/10_Discount_Factor.md)  
+║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╠══ 2.2.1.11 [Return](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/02_ch02/01_MDP/11_Return.md)  
+║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╠══ 2.2.1.12 [ValueFunction](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/02_ch02/01_MDP/12_ValueFunction.md)  
+║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╚══ 2.2.1.13 [QFunction](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/02_ch02/01_MDP/13_QFunction.md)  
+║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╠══ 2.2.2 ch03 Grid World and Dynamic Programming  
+║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╠══ 2.2.2.1 [Policy Iteration](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/03_ch03/01_grid_world/01_policy_iteration/policy_iteration.py)  
+║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╚══ 2.2.2.2 [Value Iteration](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/03_ch03/01_grid_world/02_value_iteration/value_iteration.py)  
+║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╠══ 2.2.3 ch04 Grid World and Reinforcement Learning  
+║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╠══ 2.2.3.1 [SARSA](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/04_ch04/01_grid_world/01_SARSA/sarsa_agent.py)  
+║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╚══ 2.2.3.2 [QLearning](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/04_ch04/01_grid_world/02_QLearning/q_learning_agent.py)  
+║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╠══ 2.2.4 ch05 Grid World and RL + DL  
+║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╠══ 2.2.4.1 [DeepSARSA](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/05_ch05/01_grid_world/01_Deep_SARSA/deep_sarsa_agent.py)  
+║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╚══ 2.2.4.2 [Polish Gradient](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/05_ch05/01_grid_world/02_Reinforcement_Learning/reinforce_agent.py)  
 ( ║ ╠ ═ ╚ )  
 
 # 03_InSpace_Keras_Tutorial

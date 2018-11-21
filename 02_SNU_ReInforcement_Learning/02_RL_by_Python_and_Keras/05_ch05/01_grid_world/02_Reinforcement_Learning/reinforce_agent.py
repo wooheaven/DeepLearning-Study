@@ -11,8 +11,8 @@ EPISODES = 2500
 
 # 그리드월드 예제에서의 REINFORCE 에이전트
 class ReinforceAgent:
-    def __init__(self):
-        self.load_model = False
+    def __init__(self, load_model):
+        self.load_model = load_model
         # 가능한 모든 행동 정의
         self.action_space = [0, 1, 2, 3, 4]
         # 상태와 행동의 크기 정의
@@ -49,10 +49,8 @@ class ReinforceAgent:
         
         # 정책신경망을 업데이트하는 훈련함수 생성
         optimizer = Adam(lr=self.learning_rate)
-        updates = optimizer.get_updates(self.model.trainable_weights,[],
-                                        loss)
-        train = K.function([self.model.input, action, discounted_rewards], [],
-                           updates=updates)
+        updates = optimizer.get_updates(self.model.trainable_weights,[], loss)
+        train = K.function([self.model.input, action, discounted_rewards], [], updates=updates)
 
         return train
 
@@ -66,7 +64,7 @@ class ReinforceAgent:
         discounted_rewards = np.zeros_like(rewards)
         running_add = 0
         for t in reversed(range(0, len(rewards))):
-            running_add = running_add * self.discount_factor + rewards[t]
+            running_add = rewards[t] + self.discount_factor * running_add
             discounted_rewards[t] = running_add
         return discounted_rewards
     
@@ -87,11 +85,12 @@ class ReinforceAgent:
         self.optimizer([self.states, self.actions, discounted_rewards])
         self.states, self.actions, self.rewards = [], [], []
 
-
 if __name__ == "__main__":
     # 환경과 에이전트의 생성
     env = Env()
-    agent = ReinforceAgent()
+    # load_model = False
+    load_model = True
+    agent = ReinforceAgent(load_model)
 
     global_step = 0
     scores, episodes = [], []
@@ -121,8 +120,7 @@ if __name__ == "__main__":
                 scores.append(score)
                 episodes.append(e)
                 score = round(score,2)
-                print("episode:", e, "  score:", score, "  time_step:",
-                      global_step)
+                print("episode:", e, "  score:", score, "  time_step:", global_step)
 
         # 100 에피소드마다 학습 결과 출력 및 모델 저장
         if e % 100 == 0:
