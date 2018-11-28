@@ -11,7 +11,8 @@ DeepLearning
 ║&ensp;&ensp;&nbsp;╠══ 2.1 Install  
 ║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 2.1.1 [Install PyCharm](02_SNU_ReInforcement_Learning/01_Install/01_Install_PyCharm.md)  
 ║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 2.1.2 [Create VirEnv](02_SNU_ReInforcement_Learning/01_Install/02_Create_VirEnv.md)  
-║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╚══ 2.1.3 [Check Version of Packages](02_SNU_ReInforcement_Learning/01_Install/03_CheckVersionOfPackage.py)  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╠══ 2.1.3 [Avoid AVX-Error](02_SNU_ReInforcement_Learning/01_Install/03_avoid_AVX-Error.md)  
+║&ensp;&ensp;&nbsp;║&ensp;&ensp;&nbsp;╚══ 2.1.4 [Check Version of Packages](02_SNU_ReInforcement_Learning/01_Install/04_CheckVersionOfPackage.py)  
 ║&ensp;&ensp;&nbsp;╚══ 2.2 Book  
 ║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;╠══ 2.2.1 ch02 MDP and BE  
 ║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;║&ensp;&ensp;&nbsp;╠══ 2.2.1.1 [Agent](02_SNU_ReInforcement_Learning/02_RL_by_Python_and_Keras/02_ch02/01_MDP/01_Agent.md)  

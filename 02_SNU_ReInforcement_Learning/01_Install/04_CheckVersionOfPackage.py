@@ -11,3 +11,4 @@ print('matplotlib ' + matplotlib.__version__)
 print('h5py ' + h5py.__version__)
 print('tensorflow ' + tensorflow.__version__)
 print('keras ' + keras.__version__)
+
