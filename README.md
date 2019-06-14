@@ -64,9 +64,11 @@ DeepLearning
 ║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;╠══ 3.2.2.6 [ch03 Conv2D MaxPooling2D Flatten Example](03_InSpace_Keras_Tutorial/03/03/04_Conv2D_MaxPooling2D_Flatten_Example.ipynb)  
 ║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;╠══ 3.2.2.7 [ch03 icrawler on Google Image](03_InSpace_Keras_Tutorial/03/03/05_icrawler_on_Google_Image.ipynb)  
 ║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;╚══ 3.2.2.8 [ch03 Duplicate Data by ImageDataGenerator](03_InSpace_Keras_Tutorial/03/03/06_Duplicate_with_ImageDataGenerator.ipynb)  
-╠══ 4 DeepLearning from Scratch  
-║&ensp;&ensp;&nbsp;╠══ 4.1 ch1. [Check Python Version](04_DeepLearning_from_Scratch/1/1.3/python_version.ipynb)  
-║&ensp;&ensp;&nbsp;╠══ 4.2 ch2. [Perceptron : Definition, example for AND, NAND, OR, XOR](04_DeepLearning_from_Scratch/2/Perceptron.ipynb)  
-║&ensp;&ensp;&nbsp;╚══ 4.3 ch3. [From Perceptron to ANN : Step Function, Sigmoid Function](04_DeepLearning_from_Scratch/3/3.1/01_from_Perceptron_to_Artificial_Neural_Network.ipynb)  
+╠═4 DeepLearning from Scratch  
+║ ╠═4.1 ch1. [Check Python Version](04_DeepLearning_from_Scratch/1/1.3/python_version.ipynb)  
+║ ╠═4.2 ch2. [Perceptron : Definition, example for AND, NAND, OR, XOR](04_DeepLearning_from_Scratch/2/Perceptron.ipynb)  
+║ ╚═4.3 ch3 Artificial_Neural_Network  
+║ - ╠═4.3.1 [From Perceptron to ANN : Step Function, Sigmoid Function](04_DeepLearning_from_Scratch/3/3.1/01_from_Perceptron_to_Artificial_Neural_Network.ipynb)  
+║ - ╚═4.3.2 [Activate Function : sigmoid, step, tanh, linear](04_DeepLearning_from_Scratch/3/3.2/01_activate_function.ipynb)  
 ╚══ [README](README.md)  
 ( ║ ╠ ═ ╚ )  
