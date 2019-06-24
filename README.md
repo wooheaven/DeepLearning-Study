@@ -73,7 +73,8 @@ DeepLearning
 ░░░░║░╠═4.3.3.1 [array shape ndim](04_DeepLearning_from_Scratch/3_ch3/3/01_multidimensional_arrays.ipynb)  
 ░░░░║░╠═4.3.3.2 [matrix dot product](04_DeepLearning_from_Scratch/3_ch3/3/02_matrix_dot_product.ipynb)  
 ░░░░║░╚═4.3.3.3 [ANN dot product](04_DeepLearning_from_Scratch/3_ch3/3/03_ANN_dot.ipynb)  
-░░░░╚═4.3.4 3rd Layer ANN  
-░░░░░░╠═4.3.4.1 [notaion of ANN weight](04_DeepLearning_from_Scratch/3_ch3/4_3rd_layer_ANN/1_notaion_of_ANN_weight.ipynb)  
-░░░░░░╚═4.3.4.2 [implement signal of each layer](04_DeepLearning_from_Scratch/3_ch3/4_3rd_layer_ANN/2_implement_signal_of_each_layer.ipynb)  
+░░░░╠═4.3.4 3rd Layer ANN  
+░░░░║░╠═4.3.4.1 [notaion of ANN weight](04_DeepLearning_from_Scratch/3_ch3/4_3rd_layer_ANN/1_notaion_of_ANN_weight.ipynb)  
+░░░░║░╚═4.3.4.2 [implement signal of each layer](04_DeepLearning_from_Scratch/3_ch3/4_3rd_layer_ANN/2_implement_signal_of_each_layer.ipynb)  
+░░░░╚═4.3.5 [Design output layer of ANN](04_DeepLearning_from_Scratch/3_ch3/5_Design_output_layer/01_design_output_layer.ipynb)  
 ( ║ ╠ ═ ╚ ░)  
