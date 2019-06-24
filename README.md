@@ -68,10 +68,11 @@ DeepLearning
 ║ ╠═4.1 ch1. [Check Python Version](04_DeepLearning_from_Scratch/1/1.3/python_version.ipynb)  
 ║ ╠═4.2 ch2. [Perceptron : Definition, example for AND, NAND, OR, XOR](04_DeepLearning_from_Scratch/2/Perceptron.ipynb)  
 ║ ╚═4.3 ch3 Artificial_Neural_Network  
-║ - ╠═4.3.1 [From Perceptron to ANN](04_DeepLearning_from_Scratch/3/1/01_from_Perceptron_to_Artificial_Neural_Network.ipynb)  
-║ - ╠═4.3.2 [Activate Function : Step, Sigmoid, Hyperbolic Tangent, Linear](04_DeepLearning_from_Scratch/3/2/01_activate_function.ipynb)  
+║ - ╠═4.3.1 [From Perceptron to ANN](04_DeepLearning_from_Scratch/3_ch3/1/01_from_Perceptron_to_Artificial_Neural_Network.ipynb)  
+║ - ╠═4.3.2 [Activate Function : Step, Sigmoid, Hyperbolic Tangent, Linear](04_DeepLearning_from_Scratch/3_ch3/2/01_activate_function.ipynb)  
 ║ - ╠═4.3.3 Calculation of multidimensional arrays  
-║ - ╠═4.3.3.1 [array shape ndim](04_DeepLearning_from_Scratch/3/3/01_multidimensional_arrays.ipynb)  
-║ - ╚═4.3.3.2 [matrix dot product](04_DeepLearning_from_Scratch/3/3/02_matrix_dot_product.ipynb)  
+║ - ╠═4.3.3.1 [array shape ndim](04_DeepLearning_from_Scratch/3_ch3/3/01_multidimensional_arrays.ipynb)  
+║ - ╠═4.3.3.2 [matrix dot product](04_DeepLearning_from_Scratch/3_ch3/3/02_matrix_dot_product.ipynb)  
+║ - ╚═4.3.3.3 [ANN dot product](04_DeepLearning_from_Scratch/3_ch3/3/03_ANN_dot.ipynb)  
 ╚══ [README](README.md)  
 ( ║ ╠ ═ ╚ )  
