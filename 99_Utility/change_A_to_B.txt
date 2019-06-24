@@ -1,9 +1,6 @@
-04_DeepLearning_from_Scratch/3/1/01_from_Perceptron_to_Artificial_Neural_Network.ipynb -> 04_DeepLearning_from_Scratch/3_ch3/1/01_from_Perceptron_to_Artificial_Neural_Network.ipynb
-04_DeepLearning_from_Scratch/3/1/02_ANN.png -> 04_DeepLearning_from_Scratch/3_ch3/1/02_ANN.png
-04_DeepLearning_from_Scratch/3/1/03_Simple_Perceptron.gif -> 04_DeepLearning_from_Scratch/3_ch3/1/03_Simple_Perceptron.gif
-04_DeepLearning_from_Scratch/3/1/04_Equation_to_ANN_From_Perceptron.gif -> 04_DeepLearning_from_Scratch/3_ch3/1/04_Equation_to_ANN_From_Perceptron.gif
-04_DeepLearning_from_Scratch/3/1/05_Plot_to_ANN_From_Perceptron.gliffy -> 04_DeepLearning_from_Scratch/3_ch3/1/05_Plot_to_ANN_From_Perceptron.gliffy
-04_DeepLearning_from_Scratch/3/1/05_Plot_to_ANN_From_Perceptron.png -> 04_DeepLearning_from_Scratch/3_ch3/1/05_Plot_to_ANN_From_Perceptron.png
-04_DeepLearning_from_Scratch/3/2/01_activate_function.ipynb -> 04_DeepLearning_from_Scratch/3_ch3/2/01_activate_function.ipynb
-04_DeepLearning_from_Scratch/3/3/01_multidimensional_arrays.ipynb -> 04_DeepLearning_from_Scratch/3_ch3/3/01_multidimensional_arrays.ipynb
-04_DeepLearning_from_Scratch/3/3/02_matrix_dot_product.ipynb -> 04_DeepLearning_from_Scratch/3_ch3/3/02_matrix_dot_product.ipynb
+04_DeepLearning_from_Scratch/2/01_Perceptron.gif -> 04_DeepLearning_from_Scratch/2_ch2/01_Perceptron.gif
+04_DeepLearning_from_Scratch/2/02_AND.gif -> 04_DeepLearning_from_Scratch/2_ch2/02_AND.gif
+04_DeepLearning_from_Scratch/2/03_NAND.gif -> 04_DeepLearning_from_Scratch/2_ch2/03_NAND.gif
+04_DeepLearning_from_Scratch/2/04_OR.gif -> 04_DeepLearning_from_Scratch/2_ch2/04_OR.gif
+04_DeepLearning_from_Scratch/2/05_XOR.PNG -> 04_DeepLearning_from_Scratch/2_ch2/05_XOR.PNG
+04_DeepLearning_from_Scratch/2/Perceptron.ipynb -> 04_DeepLearning_from_Scratch/2_ch2/Perceptron.ipynb
