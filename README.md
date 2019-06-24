@@ -66,13 +66,15 @@ DeepLearning
 ║&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;╚══ 3.2.2.8 [ch03 Duplicate Data by ImageDataGenerator](03_InSpace_Keras_Tutorial/03/03/06_Duplicate_with_ImageDataGenerator.ipynb)  
 ╠═4 DeepLearning from Scratch  
 ║ ╠═4.1 ch1. [Check Python Version](04_DeepLearning_from_Scratch/1/1.3/python_version.ipynb)  
-║ ╠═4.2 ch2. [Perceptron : Definition, example for AND, NAND, OR, XOR](04_DeepLearning_from_Scratch/2/Perceptron.ipynb)  
+║ ╠═4.2 ch2. [Perceptron : Definition, example for AND, NAND, OR, XOR](04_DeepLearning_from_Scratch/2_ch2/Perceptron.ipynb)  
 ║ ╚═4.3 ch3 Artificial_Neural_Network  
 ║ - ╠═4.3.1 [From Perceptron to ANN](04_DeepLearning_from_Scratch/3_ch3/1/01_from_Perceptron_to_Artificial_Neural_Network.ipynb)  
 ║ - ╠═4.3.2 [Activate Function : Step, Sigmoid, Hyperbolic Tangent, Linear](04_DeepLearning_from_Scratch/3_ch3/2/01_activate_function.ipynb)  
 ║ - ╠═4.3.3 Calculation of multidimensional arrays  
-║ - ╠═4.3.3.1 [array shape ndim](04_DeepLearning_from_Scratch/3_ch3/3/01_multidimensional_arrays.ipynb)  
-║ - ╠═4.3.3.2 [matrix dot product](04_DeepLearning_from_Scratch/3_ch3/3/02_matrix_dot_product.ipynb)  
-║ - ╚═4.3.3.3 [ANN dot product](04_DeepLearning_from_Scratch/3_ch3/3/03_ANN_dot.ipynb)  
+║ - ║ ╠═4.3.3.1 [array shape ndim](04_DeepLearning_from_Scratch/3_ch3/3/01_multidimensional_arrays.ipynb)  
+║ - ║ ╠═4.3.3.2 [matrix dot product](04_DeepLearning_from_Scratch/3_ch3/3/02_matrix_dot_product.ipynb)  
+║ - ║ ╚═4.3.3.3 [ANN dot product](04_DeepLearning_from_Scratch/3_ch3/3/03_ANN_dot.ipynb)  
+║ - ╠═4.3.4 3rd Layer ANN  
+║ - ║ ╠═4.3.4.1 [notaion of ANN weight](04_DeepLearning_from_Scratch/3_ch3/4_3rd_layer_ANN/01_notaion_of_ANN_weight.ipynb)  
 ╚══ [README](README.md)  
 ( ║ ╠ ═ ╚ )  
