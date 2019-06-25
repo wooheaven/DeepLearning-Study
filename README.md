@@ -76,5 +76,7 @@ DeepLearning
 ░░░░╠═4.3.4 3rd Layer ANN  
 ░░░░║░╠═4.3.4.1 [notaion of ANN weight](04_DeepLearning_from_Scratch/3_ch3/4_3rd_layer_ANN/1_notaion_of_ANN_weight.ipynb)  
 ░░░░║░╚═4.3.4.2 [implement signal of each layer](04_DeepLearning_from_Scratch/3_ch3/4_3rd_layer_ANN/2_implement_signal_of_each_layer.ipynb)  
-░░░░╚═4.3.5 [Design output layer of ANN](04_DeepLearning_from_Scratch/3_ch3/5_Design_output_layer/01_design_output_layer.ipynb)  
+░░░░╠═4.3.5 [Design output layer of ANN](04_DeepLearning_from_Scratch/3_ch3/5_Design_output_layer/01_design_output_layer.ipynb)  
+░░░░╚═4.3.6 MNIST  
+░░░░░░╚═4.3.6.1 [MNIST dataset](04_DeepLearning_from_Scratch/3_ch3/6_MNIST/1_MNIST_dataset.ipynb)  
 ( ║ ╠ ═ ╚ ░)  
