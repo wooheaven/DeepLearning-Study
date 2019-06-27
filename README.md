@@ -79,5 +79,6 @@ DeepLearning
 ░░░░╠═5 [Design output layer of ANN](04_DeepLearning_from_Scratch/3_ch3/5_Design_output_layer/01_design_output_layer.ipynb)  
 ░░░░╚═6 MNIST  
 ░░░░░░╠═1 [MNIST dataset](04_DeepLearning_from_Scratch/3_ch3/6_MNIST/1_MNIST_dataset.ipynb)  
-░░░░░░╚═2 [forward propagation](04_DeepLearning_from_Scratch/3_ch3/6_MNIST/2_predict_with_ANN_forward_propagation.ipynb)  
+░░░░░░╠═2 [forward propagation](04_DeepLearning_from_Scratch/3_ch3/6_MNIST/2_predict_with_ANN_forward_propagation.ipynb)  
+░░░░░░╚═3 [forward propagation with match](04_DeepLearning_from_Scratch/3_ch3/6_MNIST/3_predict_with_ANN_forward_propagation_with_batch.ipynb)  
 ( ║ ╠ ═ ╚ ░)  
