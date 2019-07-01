@@ -66,19 +66,21 @@ DeepLearning
 ║░░░░░╚═8 [ch03 Duplicate Data by ImageDataGenerator](03_InSpace_Keras_Tutorial/03/03/06_Duplicate_with_ImageDataGenerator.ipynb)  
 ╚═4 DeepLearning from Scratch  
 ░░╠═2 ch2. [Perceptron : Definition, example for AND, NAND, OR, XOR](04_DeepLearning_from_Scratch/2_ch2/Perceptron.ipynb)  
-░░╚═3 ch3 Artificial_Neural_Network  
-░░░░╠═1 [From Perceptron to ANN](04_DeepLearning_from_Scratch/3_ch3/1_perceptron_to_ANN/01_from_Perceptron_to_Artificial_Neural_Network.ipynb)  
-░░░░╠═2 [Activate Function : Step, Sigmoid, Hyperbolic Tangent, Linear](04_DeepLearning_from_Scratch/3_ch3/2/01_activate_function.ipynb)  
-░░░░╠═3 Calculation of multidimensional arrays  
-░░░░║░╠═1 [array shape ndim](04_DeepLearning_from_Scratch/3_ch3/3/01_multidimensional_arrays.ipynb)  
-░░░░║░╠═2 [matrix dot product](04_DeepLearning_from_Scratch/3_ch3/3/02_matrix_dot_product.ipynb)  
-░░░░║░╚═3 [ANN dot product](04_DeepLearning_from_Scratch/3_ch3/3/03_ANN_dot.ipynb)  
-░░░░╠═4 3rd Layer ANN  
-░░░░║░╠═1 [notaion of ANN weight](04_DeepLearning_from_Scratch/3_ch3/4_3rd_layer_ANN/1_notaion_of_ANN_weight.ipynb)  
-░░░░║░╚═2 [implement signal of each layer](04_DeepLearning_from_Scratch/3_ch3/4_3rd_layer_ANN/2_implement_signal_of_each_layer.ipynb)  
-░░░░╠═5 [Design output layer of ANN](04_DeepLearning_from_Scratch/3_ch3/5_Design_output_layer/01_design_output_layer.ipynb)  
-░░░░╚═6 MNIST  
-░░░░░░╠═1 [MNIST dataset](04_DeepLearning_from_Scratch/3_ch3/6_MNIST/1_MNIST_dataset.ipynb)  
-░░░░░░╠═2 [forward propagation](04_DeepLearning_from_Scratch/3_ch3/6_MNIST/2_predict_with_ANN_forward_propagation.ipynb)  
-░░░░░░╚═3 [forward propagation with match](04_DeepLearning_from_Scratch/3_ch3/6_MNIST/3_predict_with_ANN_forward_propagation_with_batch.ipynb)  
+░░╠═3 ch3 Artificial_Neural_Network  
+░░║░╠═1 [From Perceptron to ANN](04_DeepLearning_from_Scratch/3_ch3/1_perceptron_to_ANN/01_from_Perceptron_to_Artificial_Neural_Network.ipynb)  
+░░║░╠═2 [Activate Function : Step, Sigmoid, Hyperbolic Tangent, Linear](04_DeepLearning_from_Scratch/3_ch3/2/01_activate_function.ipynb)  
+░░║░╠═3 Calculation of multidimensional arrays  
+░░║░║░╠═1 [array shape ndim](04_DeepLearning_from_Scratch/3_ch3/3/01_multidimensional_arrays.ipynb)  
+░░║░║░╠═2 [matrix dot product](04_DeepLearning_from_Scratch/3_ch3/3/02_matrix_dot_product.ipynb)  
+░░║░║░╚═3 [ANN dot product](04_DeepLearning_from_Scratch/3_ch3/3/03_ANN_dot.ipynb)  
+░░║░╠═4 3rd Layer ANN  
+░░║░║░╠═1 [notaion of ANN weight](04_DeepLearning_from_Scratch/3_ch3/4_3rd_layer_ANN/1_notaion_of_ANN_weight.ipynb)  
+░░║░║░╚═2 [implement signal of each layer](04_DeepLearning_from_Scratch/3_ch3/4_3rd_layer_ANN/2_implement_signal_of_each_layer.ipynb)  
+░░║░╠═5 [Design output layer of ANN](04_DeepLearning_from_Scratch/3_ch3/5_Design_output_layer/01_design_output_layer.ipynb)  
+░░║░╚═6 MNIST  
+░░║░░░╠═1 [MNIST dataset](04_DeepLearning_from_Scratch/3_ch3/6_MNIST/1_MNIST_dataset.ipynb)  
+░░║░░░╠═2 [forward propagation](04_DeepLearning_from_Scratch/3_ch3/6_MNIST/2_predict_with_ANN_forward_propagation.ipynb)  
+░░║░░░╚═3 [forward propagation with match](04_DeepLearning_from_Scratch/3_ch3/6_MNIST/3_predict_with_ANN_forward_propagation_with_batch.ipynb)  
+░░╚═4 ch4 Learning from data  
+░░░░╚═2 [Loss Function : MeanSquaredError, CrossEntropyError](04_DeepLearning_from_Scratch/4_ch4/1_Learning_from_data/2_loss_function.ipynb)  
 ( ║ ╠ ═ ╚ ░)  
