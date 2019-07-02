@@ -82,9 +82,12 @@ DeepLearning
 ░░║░░░╠═2 [forward propagation](04_DeepLearning_from_Scratch/3_ch3/6_MNIST/2_predict_with_ANN_forward_propagation.ipynb)  
 ░░║░░░╚═3 [forward propagation with match](04_DeepLearning_from_Scratch/3_ch3/6_MNIST/3_predict_with_ANN_forward_propagation_with_batch.ipynb)  
 ░░╚═4 ch4 Learning from data  
-░░░░╚═2 Loss Function  
-░░░░░░╠═1 [Mean Squred Error](04_DeepLearning_from_Scratch/4_ch4/2_Loss_function/1_Mean_squred_error.ipynb)  
-░░░░░░╠═2 [Cross Entropy Error](04_DeepLearning_from_Scratch/4_ch4/2_Loss_function/2_Cross_entropy_error.ipynb)  
-░░░░░░╠═3 [MSE with mini batch](04_DeepLearning_from_Scratch/4_ch4/2_Loss_function/3_Mean_squred_error_with_mini_batch.ipynb)  
-░░░░░░╚═4 [CEE with mini batch](04_DeepLearning_from_Scratch/4_ch4/2_Loss_function/4_Cross_entropy_error_with_mini_batch.ipynb)  
+░░░░╠═2 Loss Function  
+░░░░║░╠═1 [Mean Squred Error](04_DeepLearning_from_Scratch/4_ch4/2_Loss_function/1_Mean_squred_error.ipynb)  
+░░░░║░╠═2 [Cross Entropy Error](04_DeepLearning_from_Scratch/4_ch4/2_Loss_function/2_Cross_entropy_error.ipynb)  
+░░░░║░╠═3 [MSE with mini batch](04_DeepLearning_from_Scratch/4_ch4/2_Loss_function/3_Mean_squred_error_with_mini_batch.ipynb)  
+░░░░║░╚═4 [CEE with mini batch](04_DeepLearning_from_Scratch/4_ch4/2_Loss_function/4_Cross_entropy_error_with_mini_batch.ipynb)  
+░░░░╚═3 Numerical Differentiation  
+░░░░░░╠═1 Analytic Differentiation  
+░░░░░░╚═2 [Numerical Differentiation](04_DeepLearning_from_Scratch/4_ch4/3_Numerical_differentiation/2_numerical_differentiation.ipynb)  
 ( ║ ╠ ═ ╚ ░)  
