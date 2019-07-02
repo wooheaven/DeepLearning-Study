@@ -1,11 +1,11 @@
 # Created by manually
 deep-venv
 .idea
-04_DeepLearning_from_Scratch/3_ch3/6_MNIST/mnist.pkl
-04_DeepLearning_from_Scratch/3_ch3/6_MNIST/t10k-images-idx3-ubyte.gz
-04_DeepLearning_from_Scratch/3_ch3/6_MNIST/t10k-labels-idx1-ubyte.gz
-04_DeepLearning_from_Scratch/3_ch3/6_MNIST/train-images-idx3-ubyte.gz
-04_DeepLearning_from_Scratch/3_ch3/6_MNIST/train-labels-idx1-ubyte.gz
+04_DeepLearning_from_Scratch/dataset/mnist.pkl
+04_DeepLearning_from_Scratch/dataset/t10k-images-idx3-ubyte.gz
+04_DeepLearning_from_Scratch/dataset/t10k-labels-idx1-ubyte.gz
+04_DeepLearning_from_Scratch/dataset/train-images-idx3-ubyte.gz
+04_DeepLearning_from_Scratch/dataset/train-labels-idx1-ubyte.gz
 
 # Created by https://www.gitignore.io/api/linux,macos,python,pycharm,jupyternotebook
 # Edit at https://www.gitignore.io/?templates=linux,macos,python,pycharm,jupyternotebook
