@@ -87,7 +87,9 @@ DeepLearning
 ░░░░║░╠═2 [Cross Entropy Error](04_DeepLearning_from_Scratch/4_ch4/2_Loss_function/2_Cross_entropy_error.ipynb)  
 ░░░░║░╠═3 [MSE with mini batch](04_DeepLearning_from_Scratch/4_ch4/2_Loss_function/3_Mean_squred_error_with_mini_batch.ipynb)  
 ░░░░║░╚═4 [CEE with mini batch](04_DeepLearning_from_Scratch/4_ch4/2_Loss_function/4_Cross_entropy_error_with_mini_batch.ipynb)  
-░░░░╚═3 Numerical Differentiation  
-░░░░░░╠═1 Analytic Differentiation  
-░░░░░░╚═2 [Numerical Differentiation](04_DeepLearning_from_Scratch/4_ch4/3_Numerical_differentiation/2_numerical_differentiation.ipynb)  
+░░░░╠═3 Numerical Differentiation  
+░░░░║░╠═1 Analytic Differentiation  
+░░░░║░╚═2 [Numerical Differentiation](04_DeepLearning_from_Scratch/4_ch4/3_Numerical_differentiation/2_numerical_differentiation.ipynb)  
+░░░░╚═4 Slope  
+░░░░░░╚═1 [Gradient descent](04_DeepLearning_from_Scratch/4_ch4/4_Gradient/1_Gradient_descent.ipynb)  
 ( ║ ╠ ═ ╚ ░)  
