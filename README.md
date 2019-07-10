@@ -64,7 +64,7 @@ DeepLearning
 ║░░░░░╠═6 [ch03 Conv2D MaxPooling2D Flatten Example](03_InSpace_Keras_Tutorial/03/03/04_Conv2D_MaxPooling2D_Flatten_Example.ipynb)  
 ║░░░░░╠═7 [ch03 icrawler on Google Image](03_InSpace_Keras_Tutorial/03/03/05_icrawler_on_Google_Image.ipynb)  
 ║░░░░░╚═8 [ch03 Duplicate Data by ImageDataGenerator](03_InSpace_Keras_Tutorial/03/03/06_Duplicate_with_ImageDataGenerator.ipynb)  
-╚═4 DeepLearning from Scratch  
+╚═4 DeepLearning from Scratch : [Code](https://github.com/WegraLee/deep-learning-from-scratch), [typo](http://www.hanbit.co.kr/store/books/look.php?p_code=B8475831198)  
 ░░╠═2 ch2. [Perceptron : Definition, example for AND, NAND, OR, XOR](04_DeepLearning_from_Scratch/2_ch2/Perceptron.ipynb)  
 ░░╠═3 ch3 Artificial_Neural_Network  
 ░░║░╠═1 [From Perceptron to ANN](04_DeepLearning_from_Scratch/3_ch3/1_perceptron_to_ANN/01_from_Perceptron_to_Artificial_Neural_Network.ipynb)  
@@ -91,5 +91,6 @@ DeepLearning
 ░░░░║░╠═1 Analytic Differentiation  
 ░░░░║░╚═2 [Numerical Differentiation](04_DeepLearning_from_Scratch/4_ch4/3_Numerical_differentiation/2_numerical_differentiation.ipynb)  
 ░░░░╚═4 Slope  
-░░░░░░╚═1 [Gradient descent](04_DeepLearning_from_Scratch/4_ch4/4_Gradient/1_Gradient_descent.ipynb)  
+░░░░░░╠═1 [Gradient descent](04_DeepLearning_from_Scratch/4_ch4/4_Gradient/1_Gradient_descent.ipynb)  
+░░░░░░╚═2 [Slope of ANN](04_DeepLearning_from_Scratch/4_ch4/4_Gradient/2_Slope_on_ANN.ipynb)  
 ( ║ ╠ ═ ╚ ░)  
