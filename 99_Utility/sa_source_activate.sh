@@ -1,1 +1,2 @@
-source venv/bin/activate
+conda activate DeepLearning-Study
+# source venv/bin/activate
