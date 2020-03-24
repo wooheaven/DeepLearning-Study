@@ -77,10 +77,10 @@ DeepLearning
 ░░║░║░╠═1 [notaion of ANN weight](04_DeepLearning_from_Scratch/3_ch3/4_3rd_layer_ANN/1_notaion_of_ANN_weight.ipynb)  
 ░░║░║░╚═2 [implement signal of each layer](04_DeepLearning_from_Scratch/3_ch3/4_3rd_layer_ANN/2_implement_signal_of_each_layer.ipynb)  
 ░░║░╠═5 [Design output layer of ANN](04_DeepLearning_from_Scratch/3_ch3/5_Design_output_layer/01_design_output_layer.ipynb)  
-░░║░╚═6 MNIST  
-░░║░░░╠═1 [MNIST dataset](04_DeepLearning_from_Scratch/3_ch3/6_MNIST/1_MNIST_dataset.ipynb)  
-░░║░░░╠═2 [forward propagation](04_DeepLearning_from_Scratch/3_ch3/6_MNIST/2_predict_with_ANN_forward_propagation.ipynb)  
-░░║░░░╚═3 [forward propagation with match](04_DeepLearning_from_Scratch/3_ch3/6_MNIST/3_predict_with_ANN_forward_propagation_with_batch.ipynb)  
+░░║░╚═3.6 손글씨 숫자 인식  
+░░║░░░╠═3.6.1 [MNIST dataset](04_DeepLearning_from_Scratch/3_ch3/3.6_손글씨_숫자_인식/3.6.1_MNIST_dataset.ipynb)  
+░░║░░░╠═3.6.2 [신경망의 추론 처리](04_DeepLearning_from_Scratch/3_ch3/3.6_손글씨_숫자_인식/3.6.2_predict_with_ANN_forward_propagation.ipynb)  
+░░║░░░╚═3.6.3 [배치 처리](04_DeepLearning_from_Scratch/3_ch3/3.6_손글씨_숫자_인식/3.6.3_predict_with_ANN_forward_propagation_with_batch.ipynb)  
 ░░╚═4 ch4 Learning from data  
 ░░░░╠═2 Loss Function  
 ░░░░║░╠═1 [Mean Squred Error](04_DeepLearning_from_Scratch/4_ch4/2_Loss_function/1_Mean_squred_error.ipynb)  
