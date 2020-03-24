@@ -1,6 +1,3 @@
-04_DeepLearning_from_Scratch/2/01_Perceptron.gif -> 04_DeepLearning_from_Scratch/2_ch2/01_Perceptron.gif
-04_DeepLearning_from_Scratch/2/02_AND.gif -> 04_DeepLearning_from_Scratch/2_ch2/02_AND.gif
-04_DeepLearning_from_Scratch/2/03_NAND.gif -> 04_DeepLearning_from_Scratch/2_ch2/03_NAND.gif
-04_DeepLearning_from_Scratch/2/04_OR.gif -> 04_DeepLearning_from_Scratch/2_ch2/04_OR.gif
-04_DeepLearning_from_Scratch/2/05_XOR.PNG -> 04_DeepLearning_from_Scratch/2_ch2/05_XOR.PNG
-04_DeepLearning_from_Scratch/2/Perceptron.ipynb -> 04_DeepLearning_from_Scratch/2_ch2/Perceptron.ipynb
+04_DeepLearning_from_Scratch/3_ch3/6_MNIST/1_MNIST_dataset.ipynb -> 04_DeepLearning_from_Scratch/3_ch3/3.6_손글씨_숫자_인식/3.6.1_MNIST_dataset.ipynb
+04_DeepLearning_from_Scratch/3_ch3/6_MNIST/2_predict_with_ANN_forward_propagation.ipynb -> 04_DeepLearning_from_Scratch/3_ch3/3.6_손글씨_숫자_인식/3.6.2_predict_with_ANN_forward_propagation.ipynb
+04_DeepLearning_from_Scratch/3_ch3/6_MNIST/3_predict_with_ANN_forward_propagation_with_batch.ipynb -> 04_DeepLearning_from_Scratch/3_ch3/3.6_손글씨_숫자_인식/3.6.3_predict_with_ANN_forward_propagation_with_batch.ipynb
