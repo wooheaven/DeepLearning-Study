@@ -81,16 +81,16 @@ DeepLearning
 ░░║░░░╠═3.6.1 [MNIST dataset](04_DeepLearning_from_Scratch/3_ch3/3.6_손글씨_숫자_인식/3.6.1_MNIST_dataset.ipynb)  
 ░░║░░░╠═3.6.2 [신경망의 추론 처리](04_DeepLearning_from_Scratch/3_ch3/3.6_손글씨_숫자_인식/3.6.2_predict_with_ANN_forward_propagation.ipynb)  
 ░░║░░░╚═3.6.3 [배치 처리](04_DeepLearning_from_Scratch/3_ch3/3.6_손글씨_숫자_인식/3.6.3_predict_with_ANN_forward_propagation_with_batch.ipynb)  
-░░╚═4 ch4 Learning from data  
-░░░░╠═2 Loss Function  
-░░░░║░╠═1 [Mean Squred Error](04_DeepLearning_from_Scratch/4_ch4/2_Loss_function/1_Mean_squred_error.ipynb)  
-░░░░║░╠═2 [Cross Entropy Error](04_DeepLearning_from_Scratch/4_ch4/2_Loss_function/2_Cross_entropy_error.ipynb)  
-░░░░║░╠═3 [MSE with mini batch](04_DeepLearning_from_Scratch/4_ch4/2_Loss_function/3_Mean_squred_error_with_mini_batch.ipynb)  
-░░░░║░╚═4 [CEE with mini batch](04_DeepLearning_from_Scratch/4_ch4/2_Loss_function/4_Cross_entropy_error_with_mini_batch.ipynb)  
+░░╚═4 신경망 학습  
+░░░░╠═2 손실 함수  
+░░░░║░╠═1 [평균 제곱 오차](04_DeepLearning_from_Scratch/4_신경망_학습/2_손실_함수/1_평균_제곱_오차.ipynb)  
+░░░░║░╠═2 [교차 엔트로피 오차](04_DeepLearning_from_Scratch/4_신경망_학습/2_손실_함수/2_교차_엔트로피_오차.ipynb)  
+░░░░║░╠═3 [미니 배치 평균 제곱 오차](04_DeepLearning_from_Scratch/4_신경망_학습/2_손실_함수/3_미니배치_평균_제곱_오차.ipynb)  
+░░░░║░╚═4 [CEE with mini batch](04_DeepLearning_from_Scratch/4_신경망_학습/2_손실_함수/4_Cross_entropy_error_with_mini_batch.ipynb)  
 ░░░░╠═3 Numerical Differentiation  
 ░░░░║░╠═1 Analytic Differentiation  
-░░░░║░╚═2 [Numerical Differentiation](04_DeepLearning_from_Scratch/4_ch4/3_Numerical_differentiation/2_numerical_differentiation.ipynb)  
+░░░░║░╚═2 [Numerical Differentiation](04_DeepLearning_from_Scratch/4_신경망_학습/3_Numerical_differentiation/2_numerical_differentiation.ipynb)  
 ░░░░╚═4 Slope  
-░░░░░░╠═1 [Gradient descent](04_DeepLearning_from_Scratch/4_ch4/4_Gradient/1_Gradient_descent.ipynb)  
-░░░░░░╚═2 [Slope of ANN](04_DeepLearning_from_Scratch/4_ch4/4_Gradient/2_Slope_on_ANN.ipynb)  
+░░░░░░╠═1 [Gradient descent](04_DeepLearning_from_Scratch/4_신경망_학습/4_Gradient/1_Gradient_descent.ipynb)  
+░░░░░░╚═2 [Slope of ANN](04_DeepLearning_from_Scratch/4_신경망_학습/4_Gradient/2_Slope_on_ANN.ipynb)  
 ( ║ ╠ ═ ╚ ░)  

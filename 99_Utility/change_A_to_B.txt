@@ -1,3 +1,1 @@
-04_DeepLearning_from_Scratch/3_ch3/6_MNIST/1_MNIST_dataset.ipynb -> 04_DeepLearning_from_Scratch/3_ch3/3.6_손글씨_숫자_인식/3.6.1_MNIST_dataset.ipynb
-04_DeepLearning_from_Scratch/3_ch3/6_MNIST/2_predict_with_ANN_forward_propagation.ipynb -> 04_DeepLearning_from_Scratch/3_ch3/3.6_손글씨_숫자_인식/3.6.2_predict_with_ANN_forward_propagation.ipynb
-04_DeepLearning_from_Scratch/3_ch3/6_MNIST/3_predict_with_ANN_forward_propagation_with_batch.ipynb -> 04_DeepLearning_from_Scratch/3_ch3/3.6_손글씨_숫자_인식/3.6.3_predict_with_ANN_forward_propagation_with_batch.ipynb
+04_DeepLearning_from_Scratch/4_신경망_학습/2_손실_함수/3_Mean_squred_error_with_mini_batch.ipynb -> 04_DeepLearning_from_Scratch/4_신경망_학습/2_손실_함수/3_미니배치_평균_제곱_오차.ipynb
