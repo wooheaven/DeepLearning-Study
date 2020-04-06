@@ -82,15 +82,15 @@ DeepLearning
 ░░║░░░╠═3.6.2 [신경망의 추론 처리](04_DeepLearning_from_Scratch/3_ch3/3.6_손글씨_숫자_인식/3.6.2_predict_with_ANN_forward_propagation.ipynb)  
 ░░║░░░╚═3.6.3 [배치 처리](04_DeepLearning_from_Scratch/3_ch3/3.6_손글씨_숫자_인식/3.6.3_predict_with_ANN_forward_propagation_with_batch.ipynb)  
 ░░╚═4 신경망 학습  
-░░░░╠═2 손실 함수  
+░░░░╠═4.2 손실 함수  
 ░░░░║░╠═1 [평균 제곱 오차](04_DeepLearning_from_Scratch/4_신경망_학습/2_손실_함수/1_평균_제곱_오차.ipynb)  
 ░░░░║░╠═2 [교차 엔트로피 오차](04_DeepLearning_from_Scratch/4_신경망_학습/2_손실_함수/2_교차_엔트로피_오차.ipynb)  
 ░░░░║░╠═3 [미니 배치 평균 제곱 오차](04_DeepLearning_from_Scratch/4_신경망_학습/2_손실_함수/3_미니배치_평균_제곱_오차.ipynb)  
 ░░░░║░╚═4 [CEE with mini batch](04_DeepLearning_from_Scratch/4_신경망_학습/2_손실_함수/4_Cross_entropy_error_with_mini_batch.ipynb)  
-░░░░╠═3 Numerical Differentiation  
-░░░░║░╠═1 Analytic Differentiation  
-░░░░║░╚═2 [Numerical Differentiation](04_DeepLearning_from_Scratch/4_신경망_학습/3_Numerical_differentiation/2_numerical_differentiation.ipynb)  
-░░░░╚═4 Slope  
+░░░░╠═4.3 수치 미분 Numerical Differentiation  
+░░░░║░╠═4.3.1 (해석적) 미분 (Analytic) Differentiation  
+░░░░║░╚═4.3.2 [수치 미분의 예](04_DeepLearning_from_Scratch/4_신경망_학습/3_Numerical_differentiation/4.3.2 수치 미분의 예.ipynb)  
+░░░░╚═4.4 Slope  
 ░░░░░░╠═1 [Gradient descent](04_DeepLearning_from_Scratch/4_신경망_학습/4_Gradient/1_Gradient_descent.ipynb)  
 ░░░░░░╚═2 [Slope of ANN](04_DeepLearning_from_Scratch/4_신경망_학습/4_Gradient/2_Slope_on_ANN.ipynb)  
 ( ║ ╠ ═ ╚ ░)  
